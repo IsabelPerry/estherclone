@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('Loading bot...')
+
 const smoochBot = require('smooch-bot');
 const MemoryStore = smoochBot.MemoryStore;
 const MemoryLock = smoochBot.MemoryLock;
@@ -53,6 +55,7 @@ const stateMachine = new StateMachine({
 });
 
 process.stdin.on('data', function(data) {
+    console.log(data)
     stateMachine.receiveMessage({
             text: data.toString().trim()
         })
