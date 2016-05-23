@@ -1,8 +1,47 @@
 {
-    "BOT": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
-    "HELLO": "Hey, I'm so glad you set EstherBot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter) %[Don't tell her](postback:notwitter)",
-    "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
-    "I LOVE YOU": "Awh, shucks! I love you too!",
-    "CONNECT ME": "",
-    "DISCONNECT": "Roger that, EstherBot is back."
+	"_____": "Opening",
+		"HELLO HTC": "Hey, I can tell you all about the HTC 10.\nAny time you want to return to the menu, just type, 'menu' or say hello.\nWhat would you like to know about? %[KSPs](postback:KSP) %[Features](postback:features) %[Design](postback:design) %[camera](postback:camera) %[Audio](postback:audio) %[Performance](postback:performance) %[Control](postback:control) %[Battery life](postback: battery) %[Connectivity](postback:connectivity) %[Accessories](postback:accessories)",
+        "MENU": "What would you like to know about? %[KSPs](postback:KSP) %[Features](postback:features) %[Design](postback:design) %[camera](postback:camera) %[Audio](postback:audio) %[Performance](postback:performance) %[Control](postback:control) %[Battery life](postback: battery) %[Connectivity](postback:connectivity) %[Accessories](postback:accessories)",
+        "HEY":"What would you like to know about? %[KSPs](postback:KSP) %[Features](postback:features) %[Design](postback:design) %[camera](postback:camera) %[Audio](postback:audio) %[Performance](postback:performance) %[Control](postback:control) %[Battery life](postback: battery) %[Connectivity](postback:connectivity) %[Accessories](postback:accessories)",
+        "HELLO":"What would you like to know about? %[KSPs](postback:KSP) %[Features](postback:features) %[Design](postback:design) %[camera](postback:camera) %[Audio](postback:audio) %[Performance](postback:performance) %[Control](postback:control) %[Battery life](postback: battery) %[Connectivity](postback:connectivity) %[Accessories](postback:accessories)",
+
+
+    "____": "ksp",
+        "KSP": "The HTC 10 is the culmination of these nearly two decades of obsessive innovation, design and engineering. It boasts:\nBold new deisgn\nUnparallelled control and performance\nStudio-quality 24-bit Hi-Res audio\nThe world's first dual OIS in HTC's best smartphone camera ever. %[Key features](postback:features) %[Back to menu](postback:menu)",
+        "FEATURES": "HTC 10 key features include:\nTop mounted headphone jack\nPerfectly chamfered contours\n5MP front camera with OIS\nUltraPixel 2 back camera\nFront and bottom BoomSound speakers\nQualcomm, Snapdragon 820\n5.2inch display\nFingerprint sensor\n145.9 x 71 x 3.0 x 9.0 mm, 161g %[Back to menu](postback:menu)",
+
+    "____": "design",
+        "DESIGN": "Inspired by light, sculpted to perfection. HTC 10 brings a new approach to design with a bold contour carved out of solid metal. The result is a phone that captures the light while looking more slimmer and slender than it already is. %[features](postback:features) %[Specs](postback:design_specs) %[Back to menu](postback:menu)",
+        "DESIGN_SPECS": "Top mounted headphone jack\nPerfectly chamfered contours\n5MP front camera with OIS\nUltraPixel 2 back camera\nFront and bottom BoomSound speakers\nQualcomm, Snapdragon 820\n5.2inch display\nFingerprint sensor\nSize: 145.9 x 71 x 3.0 x 9.0 mm, 161g",
+
+
+    "____": "camera",
+        "CAMERA": "With HTC 10 we’ve gone all out to deliver what may well be the best smartphone camera available today. With innovations like the world’s first dual OIS, 12MP UltraPixel sensor, faster laser focus and more. %[Features](postback:camera_features) %[Specs](postback:camera_specs) %[Back to menu](postback:menu)",
+        "CAMERA_FEATURES":"HTC 10s camera features include: %[Dual OIS](postback:OIS) %[Low light champion](postback:lowlight) %[Brilliant selfies](postback:selfies) %[High-speed photos](postback:high-speed) %[4k video](postback:video) %[Easy photography](postback:easy) %[Specs](postback:camera_specs)",
+        "OIS": "In a world first, HTC 10 introduces OIS in both its front and back camera. So no matter which camera you use, the result is bright, sharp and steady photos you’ll love. Fitting OIS in both cameras was a challenge, one that no other smartphone maker has overcome, but the results are totally worth it. %[Next](postback:lowlight) %[Camera features](postback:camera_features)",
+        "LOWLIGHT": "HTC 10’s main camera combines our new larger 1.55µm UltraPixel sensor with OIS and a bright f/1.8 lens to give you up to 135% more light in every shot. And, we’ve packed 12 million UltraPixels into our camera to give you the best of both worlds - brilliant low light photos at higher resolutions. %[Next](postback:selfies) %[Back](postback:OIS) %[Camera features](postback:camera_features)",
+        "SELFIES": "We’ve made HTC 10’s front camera as impressive as its main camera. It features large pixel sensors, an f/1.8 lens and built-in screen flash, so that your shots come out brighter and clearer. It has a wide-angle lens to let you fit more friends and fun into every shot. And, in a world first, it’s the only selfie camera with OIS for sharper, clearer selfies every time. %[Next](postback:high_speed) %[Back](postback:lowlight) %[Camera features](postback:camera_features)",
+        "HIGH_SPEED": "Don’t miss a moment. HTC 10’s camera is designed to launch in a flash, as little as 0.6 seconds. Just point, click and smile. And talking of speed, our 2nd generation laser focus gives you focused shots faster. It’s so fast that it even works in burst mode, perfect for epic action shots on the beach. %[Next](postback:video) %[Back](postback:selfies) %[Camera features](postback:camera_features)",
+        "VIDEO": "True to life video meets true to life sound. HTC 10 combines breathtakingly vivid 4K video with the world’s first stereo 24-bit Hi-Res audio recording in a smartphone. Enabling you to capture 256 times more information across twice the frequency range. It’s great for reliving last night’s concert with sound and video that are just as good as being there. %[Next](postback:easy) %[Back](postback:HIGH_SPEED) %[Camera features](postback:camera_features)",
+        "EASY": "Focus on the shot, not the settings. HTC 10’s camera has been redesigned from the ground up to be more intuitive to use. Taking a great photo is as simple as pressing a button no matter what the situation. And if you want to fine tune things, you’ll find the settings all conveniently at your fingertips. Easy to use doesn’t mean less capable. Pro Mode still offers all the advanced options that power users want to include the ability to take photos in RAW format. %[Next](postback:camera_specs) %[Back](postback:easy) %[Camera features](postback:camera_features)",
+        "CAMERA_SPECS": "Would you like to learn more about the front or back camera? %[Main camera](postback:main_camera) %[Back camera](postback:front_camera)",
+        "MAIN_CAMERA": "The main camera includes:\n12MP HTC UltraPixelTM 2 (1.55μm pixel size)\nBSI sensor\nOptical Image Stabilization (OIS)\nLaser autofocus\nf/1.8 aperture, 26mm focal length\nDual tone LED ash\n4K video recording with Hi-Res AUDIO\nSlow motion video recording at 720p, 120fps Modes include Auto-HDR, Panorama, Pro mode with manual control and 12-bit RAW format support, Hyperlapse, Zoe capture, Video Pic, and continuous shooting up to 8fps %[Next](postback:front_camera)",
+        "FRONT_CAMERA": "The front camera includes: 5MP (1.34μm pixel size)'\nAutofocus\nBSI sensor\nOptical Image Stabilization (OIS)\nf/1.8 aperture, 23mm focal length\nFull HD 1080p video recording\nModes include Auto-HDR, Auto Sel e, Voice Sel e, and Live Make-Up %[Next](postback:front_camera) %[Camera features](postback:camera_features)",
+
+
+
+
+    "_____": "Audio",
+
+
+	"______": "Old",
+
+	    "BOT": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
+    	"HELLO": "Hey, I'm so glad you set EstherBot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter) %[Don't tell her](postback:notwitter)",
+    	"TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
+    	"I LOVE YOU": "Awh, shucks! I love you too!",
+    	"DON'T TELL HER": "Keeping it secret, I get that. %[Tell Isabel](https://twitter.com/intent/tweet?text=Chatting%20with%20Isabel) %[Tell Ian](https://twitter.com/intent/tweet?text=Chatting%20with%20Ian)",
+    	"TELL ISABEL": "https://twitter.com/IsabelPerry",
+    	"CONNECT ME": "",
+    	"DISCONNECT": "Roger that, EstherBot is back."
 }
