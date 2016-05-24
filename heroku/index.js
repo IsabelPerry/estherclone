@@ -96,12 +96,7 @@ app.post('/webhook', function(req, res) {
     })
 
     if(!isPostback) {
-        const messages = req.body.messages.reduce((prev, current) => {
-            if (current.role === 'appUser') {
-                prev.push(current)
-            }
-            return prev
-        }, [])
+        const messages = req.body.messages.filter(m => m.role === 'appUser')
 
         if (messages.length === 0) {
             return res.end()
