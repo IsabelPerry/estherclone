@@ -1,22 +1,11 @@
 {
     "parser": "babel-eslint",
     "rules": {
-        "quotes": [
-            2,
-            "single"
-        ],
-        "jsx-quotes": [
-            2,
-            "prefer-single"
-        ],
-        "linebreak-style": [
-            2,
-            "unix"
-        ],
-        "semi": [
-            2,
-            "always"
-        ],
+        "quotes": [2, "single"],
+        "jsx-quotes": [2, "prefer-single"],
+        "linebreak-style": [2, "unix"],
+        "semi": [2, "never"],
+        "eqeqeq": ["error", "smart"],
         "no-unused-vars": 0,
         "no-extra-boolean-cast": 0,
         "no-console": 0,
